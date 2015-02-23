@@ -3,11 +3,11 @@
     "description": "Convert form error info to array",
     "require": {
         "php": ">=5.3.0",
-        "symfony/form": "3.0.*@dev"
+        "symfony/form": "*"
     },
     "require-dev": {
         "php": ">=5.3.0",
-        "symfony/form": "3.0.*@dev"
+        "symfony/form": "*"
     },
     "authors": [
         {
