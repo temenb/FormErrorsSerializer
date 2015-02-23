@@ -1,11 +1,13 @@
 {
-    "name": "temenb/form-errors-serializer",
+    "name": "temenb/symfony2-form-errors-serializer",
     "description": "Convert form error info to array",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "symfony/form": "3.0.*@dev"
     },
     "require-dev": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "symfony/form": "3.0.*@dev"
     },
     "authors": [
         {
