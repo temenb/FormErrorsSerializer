@@ -6,6 +6,12 @@
  * Time: 8:15 PM
  *
  * Forked from https://gist.github.com/Graceas/6505663
+ * add service to app/config/services.yml
+ *  
+ * services:
+ *     form_errors_serializer:
+ *         class: FormErrorsSerializer\FormErrorsSerializer
+ *
  *
  * In action you may use:
  *
@@ -17,7 +23,7 @@
  *         // ...
  *     } else {
  *         if ($ajax) {
- *             $errors = $this->get('form_serializer')->serializeFormErrors($form, true, true);
+ *             $errors = $this->get('form_errors_serializer')->serializeFormErrors($form, true, true);
  *
  *             return new Response(json_encode(array(
  *                 'status' => 'error',
