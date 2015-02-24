@@ -29,7 +29,7 @@
  *
  */
 
-namespace Temenb;
+namespace FormErrorsSerializer;
 
 use Symfony\Component\Form\Form;
 
