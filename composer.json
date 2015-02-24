@@ -15,5 +15,10 @@
             "email": "temenb@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "FormErrorsSerializer": "src/"
+        }
+    }
     "minimum-stability": "dev"
 }
